@@ -164,6 +164,7 @@ nav {
 }
 
 #header_row {
+  margin-top: -1vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -602,4 +603,13 @@ footer {
     height: 10vw;
   }
 
+}
+
+@media only screen and (max-width: 400px) {
+  .loader {
+    margin-top: -5vh;
+  }
+  #header_row {
+    margin-top: -5vh;
+  }
 }
